@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    scroll-behavior:smooth;
+}
+body {
+    min-height: 100vh;
+    background-color: skyblue;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    display: flex;
+    padding: 30px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+header img {
+    width: 100px;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    list-style: none;
+}
+header ul li a{
+    font-size: 15px;
+    margin-left: 15px;
+    color: #DFB576;
+    background: antiquewhite;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.3s;
+    border-radius: 40px;
+;
+}
+header ul li a:hover{
+    box-shadow: 0 0 30px 5px aliceblue;
+    padding: 15px 10px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 140vh;
+    padding: 100px;
+    top: 90px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+section h1{
+    padding: 15px 25px;
+    position: absolute;
+    top: 100px;
+    color: #DFB576;
+    font-size: 50px;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+section h1:hover{
+    box-shadow: 0 0 50px 20px #DFB576;
+}
+section h6 {
+    align-items: center;
+    position: absolute;
+    color: #DFB576;
+    font-size: 10px;
+    top: 210px;
+    background-image: url(Gambar/Mouse.png);
+}
+#asset1 {
+    margin-top: 450px;
+}
+#asset3 {
+    margin-top: 280px;
+}
+#asset4 {
+    margin-top: 100px;
+    
+}
+
+.gradasi {
+    position: relative;
+    top: 90px;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(#455956, #CCA56D);
+}
+.pita {
+    position: absolute;
+    top: 100px;
+    width: 650px;
+    height: 125px;
+}
+.content {
+    top: 90px;
+    position: relative;
+    width: 100%;
+    background: #CCA56D;
+    height: 2800px;
+}
+.hero {
+    width: 70%;
+}
+.mainFood {
+    position: absolute;
+    width: 530px;
+    top: -140px;
+    left: 50%;
+}
+.content h1 {
+    font-family: poppins , sans-serif;
+    font-size: 60px;
+}
+.mainFood .merah {
+    color: rgb(209, 6, 6);
+}
+.mainFood .putih {
+    color: white;
+}
+.content .bawah {
+    position: absolute;
+    transform: rotate(180deg);
+    right: 0;
+    top: 550px;
+}
+.content .top2 {
+    position: absolute;
+    width: 310px;
+    top: 800px;
+    right: 75%;
+}
+.topcontent {
+    position: absolute;
+    width: 900px;
+    height: 300px;
+    background: rgba(196, 196, 196, 0.1);
+    border: 1px solid #455956;
+    box-sizing: border-box;
+    border-radius: 50px;
+    top: 800px;
+    left: 350px;
+    
+}
+.topcontent p {
+    margin: 60px 20px;
+    text-align: justify;
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+    font-weight: 200;
+    font-family: 'Lucida Sans', sans-serif;
+}
+.last {
+    position: relative;
+    width: 100%;
+    height: 235px;
+    top: 800px;
+}
+.varian{
+    position: absolute;
+    left: 40px;
+    height: 100%;
+    width:500px;
+    border-bottom: 7px #C4C4C4 solid;
+}
+.varian img {
+    position: absolute;
+    width: 200px;
+    top : 20px;
+}
+.varian h3 {
+    position: absolute;
+    transform: rotate(-90deg);
+    left: 140px;
+    top: 90px;
+    font-family: 'Lucida Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.varian h3 .putih{
+    color: white;
+}
+.varian h3 .abu {
+    color: #455956;
+}
+.hero-text {
+    position: absolute;
+    width: 200px;
+    text-align:justify;
+    color: white;
+    left: 280px;
+    top: 50px;
+    text-align: center;
+}
+.hero-text h1{
+    font-size: 50px;
+    
+    font-style: italic;
+}
+.morefood {
+    position: relative;
+    left: 45%;
+    display: flex;
+    width: 695px;
+    height: 260px;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+.morefood img {
+    width: 165px;
+    margin-right:20px ;
+    padding-bottom: 10px;
+}
+.morefood img:hover {
+    cursor: pointer;
+}
+.botton-text {
+    margin-top: 100px;
+    width: 100%;
+    text-align: justify;
+    display :flex;
+    
+}
+.botton-text p{
+    line-height: 40px;
+    width: 40%;
+    margin: 50px;
+    text-indent: 30px;
+    color: white;
+}
+.botton-text p:first-child {
+    width: 50%;
+    border-right: 10px #C4C4C4 solid;
+    padding-right: 80px;
+    box-sizing: border-box;
+}
